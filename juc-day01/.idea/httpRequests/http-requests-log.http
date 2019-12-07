@@ -1,0 +1,260 @@
+GET https://example.com/comments?page=2&pageSize=10
+
+<> 2019-10-23T114156.404.html
+
+###
+
+GET http://@host%20=%20dev.avatarinternalapi.jd.com
+@contentType = application/json:
+
+GET  http://{{host}}/alarm/email-info?pin=zhangkaixuan100,zhangkaixuan1002
+
+Content-Type: {{contentType}}
+
+###
+
+GET http://@host%20=%20dev.avatarinternalapi.jd.com
+@contentType = application/json:
+
+GET  http://{{host}}/alarm/email-info?pin=zhangkaixuan100,zhangkaixuan1002
+
+Content-Type: {{contentType}}
+
+###
+
+GET http://{{host}}/alarm/email-info?pin=zhangkaixuan100,zhangkaixuan1002
+
+Content-Type: {{contentType}}
+
+###
+
+GET http://{{host}}/alarm/email-info?pin=zhangkaixuan100,zhangkaixuan1002
+
+Content-Type: {{contentType}}
+
+###
+
+POST http://{{baseUrl}}/login
+Content-Type: application/x-www-form-urlencoded
+
+###
+
+POST http://{{baseUrl}}/login
+Content-Type: application/x-www-form-urlencoded
+
+###
+
+POST http://{{baseUrl}}/login
+Content-Type: application/x-www-form-urlencoded
+
+###
+
+POST http://{{baseUrl}}/login
+Content-Type: application/x-www-form-urlencoded
+
+###
+
+POST http://{{baseUrl}}/comments
+Authorization: {{authToken}}
+Content-Type: application/json
+
+{
+    "content": "fake content"
+}
+
+###
+
+POST https://example.com/api/api/login
+Content-Type: application/x-www-form-urlencoded
+
+<> 2019-10-23T113726.404.html
+
+###
+
+POST http://{{baseUrl}}/comments
+Authorization: {{authToken}}
+Content-Type: application/json
+
+{
+    "content": "fake content"
+}
+
+###
+
+POST https://example.com/api/api/login
+Content-Type: application/x-www-form-urlencoded
+
+<> 2019-10-23T113636.404.html
+
+###
+
+POST http://{{baseUrl}}/comments
+Authorization: {{authToken}}
+Content-Type: application/json
+
+{
+    "content": "fake content"
+}
+
+###
+
+POST http://{{baseUrl}}/comments
+Authorization: {{authToken}}
+Content-Type: application/json
+
+{
+    "content": "fake content"
+}
+
+###
+
+POST https://example.com/api/api/login
+Content-Type: application/x-www-form-urlencoded
+
+name=foo&password=bar
+
+<> 2019-10-23T113510.404.html
+
+###
+
+POST http://{{baseUrl}}/api/login
+Content-Type: application/x-www-form-urlencoded
+
+name=foo&password=bar
+
+###
+
+POST http://{{baseUrl}}/comments
+Authorization: {{authToken}}
+Content-Type: application/json
+
+{
+    "content": "fake content"
+}
+
+###
+
+POST http://{{baseUrl}}/api/login
+Content-Type: application/x-www-form-urlencoded
+
+name=foo&password=bar
+
+###
+
+GET http://{{base-url}}
+User-Agent: {{User-Agent}}
+Accept-Language: en-GB,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4
+Content-Type: {{contentType}}
+
+###
+
+GET http://{{base-url}}
+User-Agent: {{User-Agent}}}
+Accept-Language: en-GB,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4
+Content-Type: {{contentType}}}
+
+###
+
+GET http://{{base-url}}
+User-Agent: {{User-Agent}}}
+Accept-Language: en-GB,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4
+Content-Type: {{contentType}}}
+
+###
+
+GET http://{{base-url}}}
+User-Agent: {{User-Agent}}}
+Accept-Language: en-GB,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4
+Content-Type: {{contentType}}}
+
+###
+
+GET http://{{base-url}}}
+User-Agent: {{User-Agent}}}
+Accept-Language: en-GB,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4
+Content-Type: {{contentType}}}
+
+###
+
+GET http://{{base-url}}}
+User-Agent: {{User-Agent}}}
+Accept-Language: en-GB,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4
+Content-Type: {{contentType}}}
+
+###
+
+GET https://www.baidu.com
+User-Agent: {{User-Agent}}}
+Accept-Language: en-GB,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4
+Content-Type: {{contentType}}}
+
+<> 2019-10-23T111950.200.html
+
+###
+
+GET https://www.baidu.com
+User-Agent: rest-client
+Accept-Language: en-GB,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4
+Content-Type: {{contentType}}}
+
+<> 2019-10-23T111815.200.html
+
+###
+
+GET https://www.baidu.com
+Content-Type: {{contentType}}}
+
+<> 2019-10-23T111746.200.html
+
+###
+
+POST https://example.com/comments
+Content-Type: {{contentType}}}
+Authorization: token xxx
+
+<request>
+    <name>sample</name>
+    <time>Wed, 21 Oct 2015 18:27:50 GMT</time>
+</request>
+
+<> 2019-10-23T111704.404.html
+
+###
+
+GET https://www.baidu.com
+
+<> 2019-10-23T110358.200.html
+
+###
+
+POST https://example.com/comments
+Content-Type: application/xml
+Authorization: token xxx
+
+<request>
+    <name>sample</name>
+    <time>Wed, 21 Oct 2015 18:27:50 GMT</time>
+</request>
+
+<> 2019-10-23T110345.404.html
+
+###
+
+GET https://www.baidu.com
+
+<> 2019-10-23T105738.200.html
+
+###
+
+GET https://example.com/comments?page=2&pageSize=10
+
+<> 2019-10-23T105721.404.html
+
+###
+
+GET https://example.com/comments?page=2&pageSize=10
+
+<> 2019-10-23T105609.404.html
+
+###
+
